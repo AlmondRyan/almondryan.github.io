@@ -1,0 +1,9 @@
+.styleNav {
+    background-image: linear-gradient(to right, lightyellow 0%, #bfefff 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Source Han Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 100px;
+}

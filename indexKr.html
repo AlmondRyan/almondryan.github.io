@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Rakyuu Studio - Forward Develop</title>
+</head>
+
+<body>
+    <!-- Navigation Bar Class -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light styleNav">
+        <div class="container-fluid">
+            <img src="Resource/Icon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="Content/contact.html">Rakyuu Studio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            오퍼링
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Retoccilus</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">XComposer</a></li>
+                            <li><a class="dropdown-item" href="#">UniModeler</a></li>
+                            <li><a class="dropdown-item" href="#">AnimFocus</a></li>
+                            <li><a class="dropdown-item" href="#">Morude</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            VST 플러그인
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <div class="d-flex flex-column">
+                                    <div class="p-2 border-bottom">VST & AU</div>
+                                    <a class="dropdown-item p-2" href="#">Effect Crystal</a>
+                                    <a class="dropdown-item p-2" href="#">Furco</a>
+                                    <a class="dropdown-item p-2" href="#">MixMaster</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
+                    <button class="btn btn-outline-success btn-block" type="submit">Search</button>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                다국어 전환
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('zh-cn')">중국어 간체</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('zht-cn')">중국어 번체</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('en-us')">영어</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('ja-jp')">일본어</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('ko-kr')">한국어</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="Js/translation.js"></script>
+</body>
+</html>
